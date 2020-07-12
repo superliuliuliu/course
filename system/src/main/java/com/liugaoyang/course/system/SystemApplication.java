@@ -18,5 +18,4 @@ public class SystemApplication {
 		log.info("启动成功！");
 		log.info("System Client 地址：\thttp://127.0.0.1:{}", env.getProperty("server.port"));
 	}
-
 }
