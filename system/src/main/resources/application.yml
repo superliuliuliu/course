@@ -22,3 +22,13 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+# 指明mapper对应的XML文件的地址
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+# 开启MyBatis的日志打印
+logging:
+  level:
+    #打印SQL信息  日志打印的级别不同
+    com.liugaoyang.course.system.mapper: DEBUG
