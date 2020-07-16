@@ -11,7 +11,7 @@ import org.springframework.core.env.Environment;
 @EnableEurekaClient
 @SpringBootApplication
 @Slf4j
-@MapperScan(value = "com.liugaoyang.course.system.mapper")
+@MapperScan(value = "com.liugaoyang.course.common.mapper")
 public class SystemApplication {
 
 	public static void main(String[] args) {

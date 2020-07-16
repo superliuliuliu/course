@@ -52,6 +52,13 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.liugaoyang</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
 <!--        &lt;!&ndash;通用mapper依赖 整合了mybatis完美整合mybatis&ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>tk.mybatis</groupId>-->
